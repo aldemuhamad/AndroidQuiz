@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.aldemuhamad.androidquiz.MainActivity">
+
+    <TextView
+        android:id="@+id/mTextNameParticipant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp"
+        android:text="Your Name" />
+
+    <TextView
+        android:id="@+id/mTextQuestionNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="Question Number" />
+
+    <TextView
+        android:id="@+id/mTextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:text="Question to Answer" />
+
+    <RadioGroup
+        android:id="@+id/optionGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RadioButton
+            android:id="@+id/optionA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Option A" />
+
+        <RadioButton
+            android:id="@+id/optionB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Option B" />
+
+        <RadioButton
+            android:id="@+id/optionC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Option C" />
+
+        <RadioButton
+            android:id="@+id/optionD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Option D" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/mBtnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:text="submit" />
+
+</LinearLayout>

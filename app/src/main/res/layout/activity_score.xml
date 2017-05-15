@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.aldemuhamad.androidquiz.ScoreActivity">
+
+    <TextView
+        android:id="@+id/mTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:text="Muhamad Alde" />
+
+    <TextView
+        android:id="@+id/mTextScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/mTextName"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:text="Score:0" />
+
+    <TextView
+        android:id="@+id/mBtnExplain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:text="Show Explaination"
+        android:onClick="onClick"
+        />
+
+</RelativeLayout>

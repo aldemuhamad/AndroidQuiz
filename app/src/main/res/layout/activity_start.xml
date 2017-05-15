@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aldemuhamad.androidquiz.StartActivity">
+
+    <ImageView
+        android:id="@+id/quizImage"
+        android:src="@drawable/quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
+
+    <EditText
+        android:id="@+id/mEdInsertName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quizImage"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="Insert your name here"/>
+
+    <Button
+        android:id="@+id/mBtnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:text="Start Quiz Now!"/>
+</RelativeLayout>
